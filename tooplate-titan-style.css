@@ -681,7 +681,7 @@ section {
     opacity: 1;
 }
 
-.about-image::after {
+/* .about-image::after {
     content: '';
     position: absolute;
     top: -50%;
@@ -695,7 +695,7 @@ section {
         rgba(255,255,255,0.05) 270deg,
         transparent 360deg);
     animation: spin 4s linear infinite;
-}
+} */
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
@@ -1345,6 +1345,14 @@ section {
 
 .portfolio-image.music {
     background-image: url('images/portfolio-music.jpg');
+}
+
+.portfolio-image.mineinfo {
+    background-image: url('images/portfolio-mineinfo.jpeg');
+}
+
+.portfolio-image.analytics {
+    background-image: url('images/portfolio-analytics.jpg');
 }
 
 .portfolio-content {
